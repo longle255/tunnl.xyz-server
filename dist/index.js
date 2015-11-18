@@ -1,27 +1,27 @@
-Object.defineProperty(exports, '__esModule', {
-  value: true
-});
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+var _path = require('path');
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+var _path2 = _interopRequireDefault(_path);
 
-var lodashDecorators = (function () {
-  function lodashDecorators() {
-    _classCallCheck(this, lodashDecorators);
+var _tunnl = require('./tunnl');
 
-    this.msg = 'hey!';
-  }
+var _tunnl2 = _interopRequireDefault(_tunnl);
 
-  _createClass(lodashDecorators, [{
-    key: 'mainFn',
-    value: function mainFn() {
-      return this.msg;
-    }
-  }]);
+var _lodash = require('lodash');
 
-  return lodashDecorators;
-})();
+var _lodash2 = _interopRequireDefault(_lodash);
 
-exports['default'] = lodashDecorators;
-module.exports = exports['default'];
+var _bluebird = require('bluebird');
+
+var _bluebird2 = _interopRequireDefault(_bluebird);
+
+process.env.NODE_ENV = 'development';
+process.env.TUNNL_LOG = 'debug';
+process.env.TUNNL_ROOT_DIR = _path2['default'].join(__dirname, '../');
+
+// assign global variable
+global.Promise = _bluebird2['default'];
+global._ = _lodash2['default'];
+global.Tunnl = _tunnl2['default'];
+_tunnl2['default'].start();

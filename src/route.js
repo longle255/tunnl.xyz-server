@@ -8,7 +8,7 @@ let log = Logger.getLogger(module);
 let router = express.Router();
 
 let proxy = HttpProxy.createProxyServer({
-  target: 'http://localtunnel.github.io'
+  target: 'http://longle255.com'
 });
 
 proxy.on('error', function(err) {
@@ -19,7 +19,7 @@ proxy.on('proxyReq', function(proxyReq, req, res, options) {
   // rewrite the request so it hits the correct url on github
   // also make sure host header is what we expect
   proxyReq.path = '/www' + proxyReq.path;
-  proxyReq.setHeader('host', 'localtunnel.github.io');
+  proxyReq.setHeader('host', 'longle255.com');
 });
 
 export default server => {

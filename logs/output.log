@@ -348,3 +348,42 @@
 {"level":"info","message":"socket server started on port  8080","timestamp":"2015-11-01T11:31:09.194Z"}
 {"level":"info","message":"test","timestamp":"2015-11-01T11:31:09.199Z"}
 {"level":"info","message":"generated clientId: gg053eao","timestamp":"2015-11-01T11:31:09.472Z"}
+{"level":"info","message":"http server started on port  8081","timestamp":"2015-11-01T12:07:16.281Z"}
+{"level":"info","message":"socket server started on port  8080","timestamp":"2015-11-01T12:07:16.284Z"}
+{"level":"info","message":"http server started on port  8081","timestamp":"2015-11-01T13:15:45.367Z"}
+{"level":"info","message":"socket server started on port  8080","timestamp":"2015-11-01T13:15:45.371Z"}
+{"code":"ECONNRESET","level":"error","timestamp":"2015-11-01T13:25:19.718Z"}
+{"host":"http://localhost:8080","port":"4567","level":"info","message":"Starting client with options:","timestamp":"2015-11-01T13:30:37.762Z"}
+{"host":"http://localhost:8080","port":"4567","level":"info","message":"Starting client with options:","timestamp":"2015-11-01T13:31:13.723Z"}
+{"host":"http://localhost:8080","port":"4567","level":"info","message":"Starting client with options:","timestamp":"2015-11-01T13:32:15.284Z"}
+{"host":"http://localhost:8080","port":"4567","localHost":"localhost","localPort":"4567","level":"info","message":"Starting client with options:","timestamp":"2015-11-01T13:34:16.135Z"}
+{"host":"http://localhost:8080","port":"4567","localHost":"localhost","localPort":"4567","level":"info","message":"Starting client with options:","timestamp":"2015-11-01T13:34:47.338Z"}
+{"level":"info","message":"http server started on port  8081","timestamp":"2015-11-01T13:34:53.626Z"}
+{"level":"info","message":"socket server started on port  8080","timestamp":"2015-11-01T13:34:53.629Z"}
+{"host":"http://localhost:8080","port":"4567","localHost":"localhost","localPort":"4567","level":"info","message":"Starting client with options:","timestamp":"2015-11-01T13:34:56.475Z"}
+{"level":"info","message":"http server started on port  8081","timestamp":"2015-11-01T13:36:34.345Z"}
+{"level":"info","message":"socket server started on port  8080","timestamp":"2015-11-01T13:36:34.348Z"}
+{"host":"http://localhost:8080","port":"4567","localHost":"localhost","localPort":"4567","subdomain":"test","level":"info","message":"Starting client with options:","timestamp":"2015-11-01T13:36:46.205Z"}
+{"host":"http://localhost:8080","port":"4567","localHost":"localhost","localPort":"4567","subdomain":"test","level":"info","message":"Starting client with options:","timestamp":"2015-11-01T13:37:42.563Z"}
+{"level":"info","message":"http server started on port  8081","timestamp":"2015-11-01T13:38:30.862Z"}
+{"level":"info","message":"socket server started on port  8080","timestamp":"2015-11-01T13:38:30.865Z"}
+{"host":"http://localhost:8080","port":"4567","localHost":"localhost","localPort":"4567","subdomain":"test","level":"info","message":"Starting client with options:","timestamp":"2015-11-01T13:38:33.566Z"}
+{"level":"info","message":"http server started on port  8081","timestamp":"2015-11-01T13:44:31.814Z"}
+{"level":"info","message":"socket server started on port  8080","timestamp":"2015-11-01T13:44:31.818Z"}
+{"host":"http://localhost:8080","port":"4567","localHost":"localhost","localPort":"4567","subdomain":"test","level":"info","message":"Starting client with options:","timestamp":"2015-11-01T13:45:57.204Z"}
+{"level":"info","message":"http server started on port  8081","timestamp":"2015-11-01T13:46:10.720Z"}
+{"level":"info","message":"socket server started on port  8080","timestamp":"2015-11-01T13:46:10.723Z"}
+{"level":"info","message":"http server started on port  8081","timestamp":"2015-11-01T13:50:10.593Z"}
+{"level":"info","message":"socket server started on port  8080","timestamp":"2015-11-01T13:50:10.595Z"}
+{"host":"http://localhost:8080","port":"4567","localHost":"localhost","localPort":"4567","subdomain":"test","level":"info","message":"Starting client with options:","timestamp":"2015-11-01T13:50:38.853Z"}
+{"level":"info","message":"http server started on port  8081","timestamp":"2015-11-01T13:55:15.313Z"}
+{"level":"info","message":"socket server started on port  8080","timestamp":"2015-11-01T13:55:15.316Z"}
+{"host":"http://localhost:8080","port":"4567","localHost":"localhost","localPort":"4567","subdomain":"test","level":"info","message":"Starting client with options:","timestamp":"2015-11-01T13:57:34.177Z"}
+{"host":"http://localhost:8080","port":"4567","localHost":"localhost","localPort":"4567","subdomain":"test1","level":"info","message":"Starting client with options:","timestamp":"2015-11-01T13:57:57.895Z"}
+{"host":"http://localhost:8080","port":"4567","localHost":"localhost","localPort":"4567","subdomain":"test1","level":"info","message":"Starting client with options:","timestamp":"2015-11-01T14:04:09.219Z"}
+{"host":"http://localhost:8080","port":"4567","localHost":"localhost","localPort":"4567","subdomain":"test1","level":"info","message":"Starting client with options:","timestamp":"2015-11-01T14:04:14.607Z"}
+{"level":"info","message":"http server started on port  8081","timestamp":"2015-11-01T14:07:35.665Z"}
+{"level":"info","message":"socket server started on port  8080","timestamp":"2015-11-01T14:07:35.668Z"}
+{"level":"info","message":"http server started on port  8081","timestamp":"2015-11-01T14:09:25.605Z"}
+{"level":"info","message":"socket server started on port  8080","timestamp":"2015-11-01T14:09:25.608Z"}
+{"host":"http://localhost:8080","port":"4567","localHost":"localhost","localPort":"4567","subdomain":"test1","level":"info","message":"Starting client with options:","timestamp":"2015-11-01T14:09:46.813Z"}
